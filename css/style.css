@@ -1,0 +1,58 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+    overflow: hidden;
+}
+body{
+    background-image: url("../img/unsplash_XEmaJaM-4nE.png ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#suscription{
+    margin:55px 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid var(--light-gray-2, #ECECEC);
+    background: var(--light-background-color, #FFF);
+
+}
+#reviews{
+    margin: 48px 33px;
+    padding: 35px 30px;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+}
+
+.comment-rw{
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    
+    /* h6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+    padding: 13.5px;
+}
+
+.user-rw{
+display: flex;
+justify-content: center;
+}
+.user-rw img{
+    margin-right: 15px;
+}
+#reviews .user-rw .user-desc{
+    display: flex;
+    flex-direction: column;
+}
